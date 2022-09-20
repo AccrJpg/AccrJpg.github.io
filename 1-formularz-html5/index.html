@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FormularzHTML</title>
+</head>
+<body>
+    <div id="formular">
+    <form action="https://formspree.io/f/mvoyknng" method="POST" class="form">
+        <label for="name"><span class="subtitle">Imię</span></label><br>
+        <input id="text" class="name" placeholder="Imię" required><br>
+        <label for="surname"><span class="subtitle">Nazwisko</span></label><br>
+        <input id="text" class="surname" placeholder="Nazwisko" required><br>
+        <label for="email"><span class="subtitle">E-mail</span></label><br>
+        <input type="email" class="email" placeholder="email" required><br>
+
+        <label for="phone"><span class="subtitle">Telefon</span></label><br/>
+        <input type="tel" class="phone" placeholder="123654789" name="phone" required><br><br>
+
+        <span class="subtitle">Wybierz miasto</span><br>
+        <select name="city"> 
+            <option value="krk">Kraków</option>
+            <option value="ww">Warszawa</option>
+            <option value="br">Berlin</option>
+            <option value="ld">Londyn</option>
+        </select><br><br>
+
+        <span class="subtitle">Wybierz płeć</span><br>
+        
+        <input type= "radio" name="gender">Mężczyzna
+        <input type= "radio" name="gender">Kobieta<br><br>
+
+        <label><input type="checkbox" name="agreement" required><span class="subtitle">Wyrażam zgodę na przetwarzanie danych</span></label><br><br>
+
+        <textarea maxlength="250" name="message" placeholder="dodatkowa wiadomość" class="inputMessage"></textarea><br><br>
+
+        <input type="submit" value="Wyślij" class="button-style"><br><br>
+    </form>
+</div>
+</body>
+</html>
