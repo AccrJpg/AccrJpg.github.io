@@ -3,7 +3,7 @@ let jsonPracownicy = {
         { "firstName": "Krystian", "lastName": "Dziopa" },
         { "firstName": "Anna", "lastName": "Szapiel" },
         { "firstName": "Piotr", "lastName": "Żmuda" }
-    ]
+    ]}
 
 
 jsonPracownicy.pracownicy.forEach(function funkcja(element, index) {
