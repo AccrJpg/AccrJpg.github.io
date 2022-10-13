@@ -15,3 +15,7 @@ const setBackground = () => {
 let btnSetBackground = document.getElementById('set-background');
 
 btnSetBackground.addEventListener('click', setBackground);
+
+
+
+// $ - 
